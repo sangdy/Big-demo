@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 class Work extends React.Component {
@@ -20,8 +21,20 @@ class Work extends React.Component {
         </div>
 
       </div>
+=======
+import React, { PropTypes } from 'react'
+
+class work extends React.Component {
+  render () {
+    return(
+      <div>work</div>
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
     )
   }
 }
 
+<<<<<<< HEAD
 export default Work;
+=======
+export default work;
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7

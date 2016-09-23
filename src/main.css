@@ -1,19 +1,25 @@
+<<<<<<< HEAD
 body{
   -webkit-font-smoothing: antialiased;
 }
 a:hover,a:focus,a:active,a:visited{
   text-decoration: none;
 }
+=======
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
 .content-wrap{
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
 @media(min-width:760px){
   .content-wrap{
     flex-direction:row;
   }
 }
+=======
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
 .nav-header{
   height: 80px;
   background-color: #00bcd4;
@@ -21,12 +27,18 @@ a:hover,a:focus,a:active,a:visited{
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   padding:0 10px;
   color:#fff;
+=======
+  padding: 0 20px;
+  color: #fff;
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
 }
 .nav-header h3{
   margin: 0;
   font-weight: 600;
+<<<<<<< HEAD
 }
 .nav-header p{
   font-size: 22px;
@@ -35,6 +47,18 @@ a:hover,a:focus,a:active,a:visited{
   border-radius: 8px;
   margin: 0;
   cursor: pointer;
+=======
+  font-size: 30px;
+}
+.nav-header span{
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 5px 8px;
+  border-radius: 5px
+}
+.nav-header p{
+  margin: 0;
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
 }
 .nav-footer{
   height: 80px;
@@ -42,18 +66,32 @@ a:hover,a:focus,a:active,a:visited{
   flex-shrink:0;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: space-around;
+=======
+  justify-content:space-around;
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
   text-align: center;
   font-size: 18px;
 }
 .nav-footer a{
+<<<<<<< HEAD
   color:#fff;
   flex-grow: 1;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
+=======
+  color: #ffffff;
+  flex-grow: 1;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.nav-footer a:hover,nav-footer a:active{
+  color:#F44336;
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
 }
 .nav-footer p:last-child{
   border: none;
 }
+<<<<<<< HEAD
 .left-nav{
   display: flex;
   flex-direction: column;
@@ -157,4 +195,10 @@ a:hover,a:focus,a:active,a:visited{
   color:#fff;
   padding-left: 10px;
   border-radius: 0px 0px 5px 5px;
+=======
+.content-main{
+  flex-grow: 1;
+  background-color: #fff;
+  overflow-y: scroll;
+>>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
 }
