@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
@@ -13,13 +12,6 @@ class LeftNav extends React.Component {
         <Link to="about" activeStyle={{backgroundColor:'rgba(0,0,0,0.3)'}}><span className="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;Me</Link>
       </div>
     )
-=======
-import React, { PropTypes } from 'react'
-
-class LeftNav extends React.Component {
-  render () {
-    
->>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
   }
 }
 

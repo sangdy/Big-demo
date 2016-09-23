@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react'
 
 class Home extends React.Component {
@@ -23,16 +22,4 @@ class Home extends React.Component {
     )
   }
 }
-=======
-import React, { PropTypes } from 'react'
-
-class Home extends React.Component {
-  render () {
-    return(
-      <div>home</div>
-    )
-  }
-}
-
->>>>>>> 89aad3bf9487e0526676ba4ae28b0ba52f8ae7f7
 export default Home;
